@@ -1,0 +1,438 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: white;
+    color: dimgray;
+    font-family: Handlee, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-beige{
+background-color: rgb(247, 214, 171);
+}
+.bg-snow{
+background-color: rgb(255, 254, 250);
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-mid {
+    margin: 20px auto;
+    overflow: auto;
+    width: 78%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: coral;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Primary Menu */
+.primary-menu ul {
+    background-color: rgb(255, 155, 118);
+    border-radius: 5px;
+    box-shadow: darkgrey;
+}
+
+.primary-menu li {
+    border-right: 1px solid rgb(250, 216, 203);
+    display: inline-block;
+}
+
+.primary-menu a {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 60.61px; 
+    text-transform: uppercase;
+}
+
+.primary-menu a:hover {
+    background-color: wheat;
+    color: coral;
+    text-decoration: none;
+}
+
+.primary-menu .active{
+    background-color: cornsilk;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Primary Menu */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {font-size: 28px;}
+h2 {font-size: 24px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: bisque;
+    background-image: url(../images/banner-2.jpg);
+    background-size: 100%;
+    border: 1px solid  cornsilk;
+    border-radius: 4px;
+    opacity: 70%;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    color: bisque;
+    font-size: 38px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    color: bisque;
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 40%;
+}
+.main-home-two{
+    float: right;
+    width: 40%;
+}
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 60%;
+}
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 30%;
+}
+/* End Sidebar */
+
+/* Start Testimonial */
+.testimonial {
+    text-align: center;
+    background-color: bisque;
+    border: 1px solid  cornsilk;
+    border-radius: 4px;
+    padding: 0;
+}
+/* End Testimonial */
+
+/* Start Form */
+input[type="text"]
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+    color:bisque;
+    font-weight:300;
+}
+input[type="submit"] {
+    background-color: #eff3f6;
+    background-image: linearGradient;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10 px;
+}
+
+/* End Form */
+
+/* Start Secondary Menu */
+.secondary-menu {
+    background-color:rgb(255, 155, 118);
+    border-bottom: 1px solid coral;
+    border-top: 1px solid coral;
+    overflow: auto;
+    padding: 10px 0;
+}
+.secondary-menu h4 {
+    font-size: 18px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.secondary-menu ul {
+    padding: 0
+}
+.secondary-menu li {
+    color: #333333;
+    list-style: disc
+}
+.secondary-menu li a,
+.secondary-menu p {
+    color: white;
+    font-size: 16px;}
+.secondary-menu img {vertical-align: middle;}
+
+.secondary-menu-one,
+.secondary-menu-two,
+.secondary-menu-three {
+    color: white;
+    float: left;
+    margin: 20px 10px;
+}
+.secondary-menu-one {
+    padding: 20px 20px; 
+    width: 40%}
+.secondary-menu-two {width: 25%;}
+.secondary-menu-three {width: 25%}
+
+/* End Secondary Menu */
+
+/* Start Copyright */
+.copyright p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 20px;
+}
+/* End Copyright */
+
+/* Start Effect */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(255, 228, 196, 0.699);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: coral;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.snip1504 {
+  font-family: Handlee, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  /* min-width: 100%;
+  max-width: 100%;
+  width: 100%; */
+  color: coral;
+  text-align: left;
+  font-size: 18px;
+  background-color: bisque;
+}
+
+.snip1504 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1504 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1504 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.snip1504 h3,
+.snip1504 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1504 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1504 h5 {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1504 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1504:hover > img,
+.snip1504.hover > img {
+  opacity: 0.1;
+}
+
+.snip1504:hover h3,
+.snip1504.hover h3,
+.snip1504:hover h5,
+.snip1504.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* End Effect */
