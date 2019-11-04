@@ -70,7 +70,6 @@ a:active{
 }
 
 .primary-menu li {
-    border-right: 1px solid rgb(250, 216, 203);
     display: inline-block;
 }
 
@@ -79,21 +78,59 @@ a:active{
     font-size: 14px;
     display: inline-block;
     letter-spacing: 1px;
-    padding: 10px 60.61px; 
+    padding: 10px 60px; 
     text-transform: uppercase;
 }
 
 .primary-menu a:hover {
-    background-color: wheat;
-    color: coral;
+    color: wheat;
     text-decoration: none;
 }
 
-.primary-menu .active{
-    background-color: cornsilk;
+.primary-menu .active {
     color: #333333;
     text-decoration: none;
 }
+
+.menubar {
+  height: 60px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9998;
+  background-color: rgb(255, 155, 118);
+}
+
+.primary-menu-index ul {
+  background-color: rgb(255, 155, 118);
+  border-radius: 5px;
+}
+
+.primary-menu-index li {
+  display: inline-block;
+}
+
+.primary-menu-index a {
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 37.5px; 
+  text-transform: uppercase;
+}
+
+.primary-menu-index a:hover {
+  color: bisque;
+  text-decoration: none;
+}
+
+.primary-menu-index .active{
+  color: #333333;
+  text-decoration: none;
+}
+
 /* End Primary Menu */
 
 /* Start Heading */
